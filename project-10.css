@@ -1,0 +1,1012 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    
+}
+.section-1{
+    background: #1E5AFA;
+    max-height: 790px;
+    background-image: url(images3/background-img-1.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: relative;
+}
+
+.three-dot{
+    display: none;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 48px;
+    
+}
+.nav-menu .left-nav a{
+    margin-right: 35px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+
+}
+.right-nav{
+    position: relative;
+    top: -20px;
+}
+.right-nav a{
+    margin-right: 35px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.right-nav button {
+    width: 152px;
+    height: 58px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: none;
+    
+    
+}
+.right-nav button a{
+    color: #011037;
+    margin: 0 auto;
+}
+
+/* nav section end */
+
+.heading{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.heading h1{
+    font-weight: 800;
+    font-size: 85px;
+    color: white;
+
+}
+
+.heading p{
+    color: white;
+    margin-top: 30px;
+    font-size: 18px;
+}
+/* heading section end  */
+
+.side-ber{
+    width: 17.91px;
+    height: 12.44px;
+    position: relative;
+    left: 50px;
+}
+.side-ber a{
+    color: white;
+    width: 4.38px;
+    height: 4.38px;
+   
+}
+.side-ber a i{
+    margin-top: 40px ;
+}
+
+/*  left social link section end */
+
+
+
+.section-1 .hero-image{
+    max-width: 1084px;
+    max-height: 709px;
+    margin: 0 auto;
+   
+}
+
+.section-1 .hero-image img{
+    height: 600px;
+    height: 709px;
+}
+/* section 1 closed */
+.right-side-image {
+    display: flex;
+    justify-content: end;
+    margin-top: 100px;
+}
+
+.left-side-image {
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.right-side-vector {
+    
+    position: absolute;
+    right: 0px;
+    
+    
+    
+}
+
+
+/* section 2 start */
+
+.section-2{
+    background-image:url(images3/background-img-1.png) ;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.section-2 .btn{
+   margin-right: 10px;
+    
+    
+}
+.section-2 .logo img{
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+}
+.section-2 .btn button{
+    box-sizing: border-box;
+    /* padding: 10px 20px 10px 20px; */
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background: #000000;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 60px;
+
+
+}
+.about-us{
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    font-size: 85px;
+    color: #313131;
+    margin-bottom: 150px;
+}
+
+.smart-home-service{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+.smart-home-service .image img{
+    height: 600px;
+    object-fit: cover;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+
+.smart-home-service .service{
+    height: 300px;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.smart-home-service button{
+    padding: 20px 40px 20px 40px;
+    background: #011037;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+     margin-top: 20px;
+}
+
+
+.down-image{
+    position: absolute;
+    right: 0%;
+}
+/* section 2 ends */
+
+
+.clients-details h1{
+    font-size: 85px;
+    text-align: center;
+    color: #313131;
+    margin-bottom: 40px;
+    margin-top: 80px;
+
+}
+.clients-details p{
+    color: #575757;
+    font-size: 18px;
+    margin-bottom: 80px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.logo-1 a {
+    background-image: url(images3/Vector\ \(1\).png);
+    background-position: center;
+    
+    background-repeat: no-repeat;
+}
+
+
+.logo-1{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    
+    margin: 10px;
+}
+.logo-1 a {
+   border-radius: 5px;
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+    margin: 10px;
+    
+    border: 1px solid rgb(234, 224, 245);
+}
+
+
+/* logo section ends */
+
+.testimonials h1{
+    color: #313131;
+    font-size: 80px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+.testimonials p{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 80px;
+
+}
+.container-1{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    
+}
+.container-1 .content1{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #E7EBEE;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgb(252, 248, 248);
+    
+}
+.container-1 .logo-comment{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    
+}
+.container-1 .logo-comment .image{
+    margin-right: 30px;
+}
+
+/* comment section end */
+
+
+
+.icon-1{
+    width: 100%;
+    text-align: center;
+}
+.icon-1 .fa{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.faq{
+    margin-bottom: 40px;
+}
+.faq h1{
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 80px;
+
+}
+.faq a p{
+    width: 800px;
+    background: rgb(250, 248, 242);
+   align-items: center;
+   margin: auto;
+    padding: 20px;
+    
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.faq a p:hover{
+    border: 1px solid  #7094f8;
+}
+
+.faq p{
+    width: 800px;
+    background: rgb(250, 248, 242);
+   align-items: center;
+   margin: auto;
+    padding: 20px;
+    
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.faq p:hover{
+    border: 1px solid  #7094f8;
+}
+
+.btn-3 button{
+    margin-top: -100px;
+}
+
+
+
+/* subscribe start */
+
+.subscribe{
+    width: 1170px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    background: #1E5AFA;
+    border-radius: 10px;
+    display: flex;
+    background-image: url(images3/Union.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+}
+.sub{
+    width: 60%;
+    padding: 100px;
+    color: white;
+}
+.sub h1{
+    margin-bottom: 30px;
+}
+.get-start{
+    padding: 130px;
+}
+.get-start button{
+    padding: 20px 40px 20px 40px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border: .5px solid white;
+}
+
+/* subscribe ends */
+
+.container{
+    width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.catagories{
+    display: flex;
+    position: relative;
+    
+    width: 1170px;
+   
+}
+.content-1{
+    margin: 0px 30px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+.content-1 h2{
+    margin-bottom: 10px;
+}
+.content-2{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+.content-2 a{
+    text-decoration: none;
+    color: #011037;
+    margin-bottom: 10px;
+}
+.content-2 h3{
+    margin-bottom: 20px;
+}
+.footer{
+    width: 100%;
+    background: #000F37;
+    height: 80px;
+    position: relative;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+.about-us-1{
+    display: flex;
+}
+
+
+.download-app-image img{
+    height: 500px;
+}
+
+
+.sign-in{
+    width: 100px;
+    border-radius: 5px;
+    background: ;
+    border: 1px solid #1E5AFA;
+    margin-top: 40px;
+    padding: 5px 10px 5px 10px;
+}
+
+.sign-in:hover{
+    background: #1E5AFA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* media quary start */
+
+@media (min-width: 800px) and (max-width: 1024px){
+
+    .section-1{
+        width: 100%;
+        height: 579px;
+        }
+    
+        .nav-menu .left-nav{
+            display: none;
+        }
+    
+        .nav-menu .right-nav{
+            display: none;
+    
+        }
+        .three-dot{
+            display: block;
+        }
+        .three-dot i{
+            font-size: 30px;
+            color: white;
+        }
+    .heading{
+        margin-top: 40px;
+    }
+    .heading h1{
+        
+        font-weight: 800;
+        font-size: 35px;
+    }
+    .hero-image img{
+    
+        width: 80%;
+        height: 100px;
+    }
+    .section-1 .hero-image{
+        position: absolute;
+       top: 200px;
+       left: 18%;
+    }
+    
+    .right-side-image{
+        display: none;
+    }
+    .section-2 .btn{
+        margin-top: 40px;
+        margin-bottom: -10px;
+    }
+    .section-2 .btn button{
+      margin-top: 100px;
+      padding: 10px 20px 10px 20px;
+    }
+
+    .about-us{
+        text-align: center;
+        width: 100%;
+        font-size: 64px;
+        color: #313131;
+        margin-bottom: 0px;
+    }
+    
+.smart-home-service{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.smart-home-service .image img{
+    height: 400px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.smart-home-service .service{
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    margin: auto;
+    text-align: center;
+}
+.smart-service-2{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+ .clients-details h1{
+        font-size: 60px;
+    }
+    .clients-details p{
+        width: 60%;
+        
+    }
+    .logo-1{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .logo-1 a{
+        padding: 5px 7px 5px 7px;
+        margin: 3px;
+    }
+    .testimonials h1{
+        font-size: 50px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .testimonials p{
+        width: 50%;
+        margin-bottom: 40px;
+    }
+    .icon-1{
+        width: 391px;
+    }
+
+.faq h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #313131;
+}
+
+.faq p{
+    margin-bottom: 5px;
+    
+}
+
+.faq{
+    margin-bottom: 40px;
+}
+
+.faq a p{
+    width: 370px;
+    
+}
+
+.faq p{
+    width: 370px;
+}
+.faq p:hover{
+    border: 1px solid  #7094f8;
+}
+  .service-image .image img{
+      margin-top: 300px;
+  }
+  .btn-3 button{
+    margin-top: 5px;
+}
+.section-2 .btn4{
+    margin-top: 40px;
+}
+.smart-home-service .service{
+    height: 100px;
+    width: 500px;
+    margin-left: 100px;
+    
+    margin-top: 100px;
+}
+.section-2{
+    margin-top: 60px;
+   
+}
+.service-image .image img{
+    margin-top: 70px;
+    margin-right: 30px;
+    margin-left: 100px;
+}
+.service-image .service
+.service-image{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.subscribe{
+    width: 700px;
+    height: 408px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    background: #1E5AFA;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(images3/Union.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+}
+.sub{
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+.sub h1{
+    margin-bottom: 30px;
+}
+.get-start{
+    padding: 30px;
+    text-align: center;
+}
+
+
+/* subscribe ends */
+.container{
+    text-align: center;
+}
+
+.catagories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+   
+}
+.sign-in{
+    width: 100px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 5px 10px 5px 10px;
+}
+.content-1{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.content-1 h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.content-2{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.content-2 h3{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.content-2 a{
+    margin-bottom: 5px;
+}
+.footer{
+    width: 100%;
+    background: #000F37;
+    height: 80px;
+    position: relative;
+    /* top: 1300px; */
+
+}
+.footer p{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+/* media quary start for tab */
+
+
+@media (min-width: 410px) and (max-width: 800px){
+
+    .section-1{
+        width: 100%;
+        height: 579px;
+        }
+    
+        .nav-menu .left-nav{
+            display: none;
+        }
+    
+        .nav-menu .right-nav{
+            display: none;
+    
+        }
+        .three-dot{
+            display: block;
+        }
+        .three-dot i{
+            font-size: 30px;
+            color: white;
+        }
+    .heading{
+        margin-top: 40px;
+    }
+    .heading h1{
+        
+        font-weight: 800;
+        font-size: 35px;
+    }
+    .hero-image img{
+    
+        width: 80%;
+        height: 100px;
+    }
+    .section-1 .hero-image{
+        position: absolute;
+       top: 200px;
+       left: 18%;
+    }
+    
+    .right-side-image{
+        display: none;
+    }
+    .section-2 .btn{
+        margin-top: 40px;
+        margin-bottom: -10px;
+    }
+    .section-2 .btn button{
+      padding: 5px 10px 5px 5px;
+    }
+
+    .about-us{
+        text-align: center;
+        width: 100%;
+        font-size: 64px;
+        color: #313131;
+        margin-bottom: 50px;
+    }
+    
+.smart-home-service{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.smart-home-service .image img{
+    height: 300px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.smart-home-service .service{
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    margin: auto;
+    text-align: center;
+}
+.smart-service-2{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+    .clients-details h1{
+        font-size: 60px;
+    }
+    .clients-details p{
+        width: 60%;
+        
+    }
+    .logo-1{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .logo-1 a{
+        padding: 5px 7px 5px 7px;
+        margin: 3px;
+    }
+    .testimonials h1{
+        font-size: 50px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .testimonials p{
+        width: 50%;
+        margin-bottom: 40px;
+    }
+    .icon-1{
+        width: 391px;
+    }
+
+.faq h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #313131;
+}
+
+.faq p{
+    margin-bottom: 5px;
+    
+}
+
+.faq{
+    margin-bottom: 40px;
+}
+
+.faq a p{
+    width: 370px;
+    
+}
+
+.faq p{
+    width: 370px;
+}
+.faq p:hover{
+    border: 1px solid  #7094f8;
+}
+
+  .btn-3 button{
+    margin-top: 0px;
+}
+.section-2 .btn4{
+    margin-top: 20px;
+}
+
+.section-2{
+    margin-top: 60px;
+   
+}
+.service-image .image img{
+    margin-top: 70px;
+    
+}
+
+.service-image{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.subscribe{
+    width: 429px;
+    height: 408px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    background: #1E5AFA;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(images3/Union.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+}
+.sub{
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+.sub h1{
+    margin-bottom: 30px;
+}
+.get-start{
+    padding: 30px;
+    text-align: center;
+}
+
+
+/* subscribe ends */
+.container{
+    text-align: center;
+}
+
+.catagories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+   
+}
+.sign-in{
+    width: 100px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 5px 10px 5px 10px;
+}
+.content-1{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.content-1 h2{
+    margin-bottom: 10px;
+}
+.content-2{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.content-2 h3{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.content-2 a{
+    margin-bottom: 5px;
+}
+.footer{
+    width: 100%;
+    background: #000F37;
+    height: 80px;
+    position: relative;
+    /* top: 1300px; */
+
+}
+.footer p{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+
+}
